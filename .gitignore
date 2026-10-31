@@ -1,0 +1,26 @@
+# 忽略 JetBrains (CLion/IDEA) 配置文件
+.idea/
+*.iml
+
+# 忽略 Visual Studio 缓存
+.vs/
+x64/
+Debug/
+*.slnx
+*.vcxproj*
+*.suo
+*.ipch
+*.db
+*.log
+*.tlog
+
+# 忽略 CLion 编译输出
+cmake-build-*/
+out/
+
+# 忽略 Windows 系统文件
+Thumbs.db
+Desktop.ini
+
+# 忽略 Java 编译文件
+*.class
